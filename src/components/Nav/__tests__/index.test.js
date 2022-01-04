@@ -54,6 +54,6 @@ describe('links are visible', () => {
             currentCategory={mockCurrentCategory}/>);
         // Assert
         expect(getByTestId('link')).toHaveTextContent('Oh Snap!');
-        expect(getByTestId('about')).toHaveTextContent('Who am I?');
+        expect(getByTestId('about')).toHaveTextContent('About me');
     });
 })
