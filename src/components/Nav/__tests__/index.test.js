@@ -25,7 +25,7 @@ describe('emoji is visible', () => {
         const { getByLabelText } = render(<Nav />);
         // Asssert
         expect(getByLabelText('camera')).toHaveTextContent('📸');
-    })
+    });
 });
 
 describe('links are visible', () => {
